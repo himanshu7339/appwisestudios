@@ -16,4 +16,5 @@ router.put('/update/:id',updateBlogpost)
 // get blog by slug
 router.get('/:slug', getBlogPostBySlug)
 
+
 export default router;
